@@ -12,8 +12,10 @@
         <select name="operador">
             <option value="suma">Suma </option>
             <option value="resta">Resta </option>
-            <option value="multiplicar">Multiplicar </option>
-            <option value="division">Division </option>
+            <option value="multiplicar">Multiplicaci&oacute;n</option>
+            <option value="division">Division&oacute;n </option>
+        </select><br />
+        Ingresa tu primer nombre n&oacute;mero:<br/>  
 
 
     
