@@ -51,19 +51,23 @@ echo "<h2>Ejercicio 1 : Números del 1 al 10 -- WHILE </h2>";
 
    echo "<h2>Fibonacci! 🍫 </h2>";
 
-   $fibonacci = 0;
+   
+   $anterior = 0;
+   $actual =1;
 
 
-   for($f = 0; $f <=1000; $f++){
+   for($i = 0; $i <=15; $i++){
 
-   $fibonacci = $fibonacci + $f;
-   echo $fibonacci. ' | ';
+   echo $anterior. "|";
+   $siguiente = $anterior + $actual;
+
+   $anterior = $actual;
+   $actual = $siguiente;
+
+
+   //primeros numeros: 0,1,1,2,3,5,8,13,21,34,55,89,144
     
    }
-
-
-
-
 
 
 ?>
