@@ -1,6 +1,6 @@
 <?php
 
-echo "<h2>Ejercicio 1 : Números del 1 al 10 </h2>  -- WHILE";
+echo "<h2>Ejercicio 1 : Números del 1 al 10 -- WHILE </h2>";
     $num = 0;
 
     while ($num <11 ){
@@ -31,6 +31,39 @@ echo "<h2>Ejercicio 1 : Números del 1 al 10 </h2>  -- WHILE";
    for ($i = 1; $i <=12; $i++){
     echo $i. '<br>';
    }
+
+   for ($i = 1; $i <=12; $i++){
+    echo $i. " ";
+   }
+
+   echo "<h2> Ejercicio 4 : Pares y Fibonacci </h2>";
+
+   echo "Números Pares " .'<br>';
+
+   for($par = 0; $par <= 50; $par++){
+
+    if($par % 2 ==0){
+        echo $par. " ";
+    }
+
+   }
+
+
+   echo "<h2>Fibonacci! 🍫 </h2>";
+
+   $fibonacci = 0;
+
+
+   for($f = 0; $f <=1000; $f++){
+
+   $fibonacci = $fibonacci + $f;
+   echo $fibonacci. ' | ';
+    
+   }
+
+
+
+
 
 
 ?>
